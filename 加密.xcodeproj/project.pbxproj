@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E65F5431EB0742E00B5264E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5421EB0742E00B5264E /* main.m */; };
+		2E65F5461EB0742E00B5264E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5451EB0742E00B5264E /* AppDelegate.m */; };
+		2E65F5491EB0742E00B5264E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5481EB0742E00B5264E /* ViewController.m */; };
+		2E65F54C1EB0742F00B5264E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F54A1EB0742E00B5264E /* Main.storyboard */; };
+		2E65F54E1EB0742F00B5264E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F54D1EB0742F00B5264E /* Assets.xcassets */; };
+		2E65F5511EB0742F00B5264E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F54F1EB0742F00B5264E /* LaunchScreen.storyboard */; };
+		2E65F55C1EB0742F00B5264E /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F55B1EB0742F00B5264E /* __Tests.m */; };
+		2E65F5671EB0742F00B5264E /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5661EB0742F00B5264E /* __UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E65F5581EB0742F00B5264E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E65F5361EB0742E00B5264E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E65F53D1EB0742E00B5264E;
+			remoteInfo = "加密";
+		};
+		2E65F5631EB0742F00B5264E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E65F5361EB0742E00B5264E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E65F53D1EB0742E00B5264E;
+			remoteInfo = "加密";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E65F53E1EB0742E00B5264E /* 加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65F5421EB0742E00B5264E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E65F5441EB0742E00B5264E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E65F5451EB0742E00B5264E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E65F5471EB0742E00B5264E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E65F5481EB0742E00B5264E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E65F54B1EB0742E00B5264E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E65F54D1EB0742F00B5264E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E65F5501EB0742F00B5264E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E65F5521EB0742F00B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65F5571EB0742F00B5264E /* 加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65F55B1EB0742F00B5264E /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		2E65F55D1EB0742F00B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65F5621EB0742F00B5264E /* 加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65F5661EB0742F00B5264E /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		2E65F5681EB0742F00B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E65F53B1EB0742E00B5264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F5541EB0742F00B5264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F55F1EB0742F00B5264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E65F5351EB0742E00B5264E = {
+			isa = PBXGroup;
+			children = (
+				2E65F5401EB0742E00B5264E /* 加密 */,
+				2E65F55A1EB0742F00B5264E /* 加密Tests */,
+				2E65F5651EB0742F00B5264E /* 加密UITests */,
+				2E65F53F1EB0742E00B5264E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E65F53F1EB0742E00B5264E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F53E1EB0742E00B5264E /* 加密.app */,
+				2E65F5571EB0742F00B5264E /* 加密Tests.xctest */,
+				2E65F5621EB0742F00B5264E /* 加密UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E65F5401EB0742E00B5264E /* 加密 */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F5441EB0742E00B5264E /* AppDelegate.h */,
+				2E65F5451EB0742E00B5264E /* AppDelegate.m */,
+				2E65F5471EB0742E00B5264E /* ViewController.h */,
+				2E65F5481EB0742E00B5264E /* ViewController.m */,
+				2E65F54A1EB0742E00B5264E /* Main.storyboard */,
+				2E65F54D1EB0742F00B5264E /* Assets.xcassets */,
+				2E65F54F1EB0742F00B5264E /* LaunchScreen.storyboard */,
+				2E65F5521EB0742F00B5264E /* Info.plist */,
+				2E65F5411EB0742E00B5264E /* Supporting Files */,
+			);
+			path = "加密";
+			sourceTree = "<group>";
+		};
+		2E65F5411EB0742E00B5264E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F5421EB0742E00B5264E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E65F55A1EB0742F00B5264E /* 加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F55B1EB0742F00B5264E /* __Tests.m */,
+				2E65F55D1EB0742F00B5264E /* Info.plist */,
+			);
+			path = "加密Tests";
+			sourceTree = "<group>";
+		};
+		2E65F5651EB0742F00B5264E /* 加密UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F5661EB0742F00B5264E /* __UITests.m */,
+				2E65F5681EB0742F00B5264E /* Info.plist */,
+			);
+			path = "加密UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E65F53D1EB0742E00B5264E /* 加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65F56B1EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密" */;
+			buildPhases = (
+				2E65F53A1EB0742E00B5264E /* Sources */,
+				2E65F53B1EB0742E00B5264E /* Frameworks */,
+				2E65F53C1EB0742E00B5264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加密";
+			productName = "加密";
+			productReference = 2E65F53E1EB0742E00B5264E /* 加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E65F5561EB0742F00B5264E /* 加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65F56E1EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密Tests" */;
+			buildPhases = (
+				2E65F5531EB0742F00B5264E /* Sources */,
+				2E65F5541EB0742F00B5264E /* Frameworks */,
+				2E65F5551EB0742F00B5264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E65F5591EB0742F00B5264E /* PBXTargetDependency */,
+			);
+			name = "加密Tests";
+			productName = "加密Tests";
+			productReference = 2E65F5571EB0742F00B5264E /* 加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E65F5611EB0742F00B5264E /* 加密UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65F5711EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密UITests" */;
+			buildPhases = (
+				2E65F55E1EB0742F00B5264E /* Sources */,
+				2E65F55F1EB0742F00B5264E /* Frameworks */,
+				2E65F5601EB0742F00B5264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E65F5641EB0742F00B5264E /* PBXTargetDependency */,
+			);
+			name = "加密UITests";
+			productName = "加密UITests";
+			productReference = 2E65F5621EB0742F00B5264E /* 加密UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E65F5361EB0742E00B5264E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = View;
+				TargetAttributes = {
+					2E65F53D1EB0742E00B5264E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2E65F5561EB0742F00B5264E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E65F53D1EB0742E00B5264E;
+					};
+					2E65F5611EB0742F00B5264E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E65F53D1EB0742E00B5264E;
+					};
+				};
+			};
+			buildConfigurationList = 2E65F5391EB0742E00B5264E /* Build configuration list for PBXProject "加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E65F5351EB0742E00B5264E;
+			productRefGroup = 2E65F53F1EB0742E00B5264E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E65F53D1EB0742E00B5264E /* 加密 */,
+				2E65F5561EB0742F00B5264E /* 加密Tests */,
+				2E65F5611EB0742F00B5264E /* 加密UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E65F53C1EB0742E00B5264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F5511EB0742F00B5264E /* LaunchScreen.storyboard in Resources */,
+				2E65F54E1EB0742F00B5264E /* Assets.xcassets in Resources */,
+				2E65F54C1EB0742F00B5264E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F5551EB0742F00B5264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F5601EB0742F00B5264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E65F53A1EB0742E00B5264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F5491EB0742E00B5264E /* ViewController.m in Sources */,
+				2E65F5461EB0742E00B5264E /* AppDelegate.m in Sources */,
+				2E65F5431EB0742E00B5264E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F5531EB0742F00B5264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F55C1EB0742F00B5264E /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F55E1EB0742F00B5264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F5671EB0742F00B5264E /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E65F5591EB0742F00B5264E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E65F53D1EB0742E00B5264E /* 加密 */;
+			targetProxy = 2E65F5581EB0742F00B5264E /* PBXContainerItemProxy */;
+		};
+		2E65F5641EB0742F00B5264E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E65F53D1EB0742E00B5264E /* 加密 */;
+			targetProxy = 2E65F5631EB0742F00B5264E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E65F54A1EB0742E00B5264E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E65F54B1EB0742E00B5264E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E65F54F1EB0742F00B5264E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E65F5501EB0742F00B5264E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E65F5691EB0742F00B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E65F56A1EB0742F00B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E65F56C1EB0742F00B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E65F56D1EB0742F00B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E65F56F1EB0742F00B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加密.app/加密";
+			};
+			name = Debug;
+		};
+		2E65F5701EB0742F00B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加密.app/加密";
+			};
+			name = Release;
+		};
+		2E65F5721EB0742F00B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "加密";
+			};
+			name = Debug;
+		};
+		2E65F5731EB0742F00B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "加密";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E65F5391EB0742E00B5264E /* Build configuration list for PBXProject "加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F5691EB0742F00B5264E /* Debug */,
+				2E65F56A1EB0742F00B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E65F56B1EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F56C1EB0742F00B5264E /* Debug */,
+				2E65F56D1EB0742F00B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E65F56E1EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F56F1EB0742F00B5264E /* Debug */,
+				2E65F5701EB0742F00B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E65F5711EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F5721EB0742F00B5264E /* Debug */,
+				2E65F5731EB0742F00B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E65F5361EB0742E00B5264E /* Project object */;
+}

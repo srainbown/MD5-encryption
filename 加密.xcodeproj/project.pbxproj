@@ -15,6 +15,7 @@
 		2E65F5511EB0742F00B5264E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F54F1EB0742F00B5264E /* LaunchScreen.storyboard */; };
 		2E65F55C1EB0742F00B5264E /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F55B1EB0742F00B5264E /* __Tests.m */; };
 		2E65F5671EB0742F00B5264E /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5661EB0742F00B5264E /* __UITests.m */; };
+		58D435C4A72E66D8CE9C6A7F /* libPods-加密.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F9A3D9707776F0C3491EA /* libPods-加密.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002F9A3D9707776F0C3491EA /* libPods-加密.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-加密.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E65F53E1EB0742E00B5264E /* 加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E65F5421EB0742E00B5264E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E65F5441EB0742E00B5264E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		2E65F5621EB0742F00B5264E /* 加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E65F5661EB0742F00B5264E /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		2E65F5681EB0742F00B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E25DF92A76AFD81478A74F /* Pods-加密.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-加密.debug.xcconfig"; path = "Pods/Target Support Files/Pods-加密/Pods-加密.debug.xcconfig"; sourceTree = "<group>"; };
+		7E15AC207E08C56289810EDF /* Pods-加密.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-加密.release.xcconfig"; path = "Pods/Target Support Files/Pods-加密/Pods-加密.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D435C4A72E66D8CE9C6A7F /* libPods-加密.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10399FB42FB79C06CBE237C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63E25DF92A76AFD81478A74F /* Pods-加密.debug.xcconfig */,
+				7E15AC207E08C56289810EDF /* Pods-加密.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		13C7BBA863E1579AC1DE709C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002F9A3D9707776F0C3491EA /* libPods-加密.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E65F5351EB0742E00B5264E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				2E65F55A1EB0742F00B5264E /* 加密Tests */,
 				2E65F5651EB0742F00B5264E /* 加密UITests */,
 				2E65F53F1EB0742E00B5264E /* Products */,
+				10399FB42FB79C06CBE237C3 /* Pods */,
+				13C7BBA863E1579AC1DE709C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E65F56B1EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密" */;
 			buildPhases = (
+				F1B3FF801CDA2AF4E81A3E51 /* [CP] Check Pods Manifest.lock */,
 				2E65F53A1EB0742E00B5264E /* Sources */,
 				2E65F53B1EB0742E00B5264E /* Frameworks */,
 				2E65F53C1EB0742E00B5264E /* Resources */,
+				9A38B9607D740C478D94B803 /* [CP] Embed Pods Frameworks */,
+				B7689E4DE0ED47B7D06149F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +294,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A38B9607D740C478D94B803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-加密/Pods-加密-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7689E4DE0ED47B7D06149F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-加密/Pods-加密-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B3FF801CDA2AF4E81A3E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E65F53A1EB0742E00B5264E /* Sources */ = {
@@ -420,9 +495,11 @@
 		};
 		2E65F56C1EB0742F00B5264E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E25DF92A76AFD81478A74F /* Pods-加密.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +508,11 @@
 		};
 		2E65F56D1EB0742F00B5264E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E15AC207E08C56289810EDF /* Pods-加密.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +584,7 @@
 				2E65F56D1EB0742F00B5264E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E65F56E1EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +593,7 @@
 				2E65F5701EB0742F00B5264E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E65F5711EB0742F00B5264E /* Build configuration list for PBXNativeTarget "加密UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +602,7 @@
 				2E65F5731EB0742F00B5264E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

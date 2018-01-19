@@ -15,6 +15,7 @@
 		2E65F5511EB0742F00B5264E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F54F1EB0742F00B5264E /* LaunchScreen.storyboard */; };
 		2E65F55C1EB0742F00B5264E /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F55B1EB0742F00B5264E /* __Tests.m */; };
 		2E65F5671EB0742F00B5264E /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5661EB0742F00B5264E /* __UITests.m */; };
+		3E9CEEDF2011D50200380D2C /* MD5Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CEEDE2011D50200380D2C /* MD5Encrypt.m */; };
 		58D435C4A72E66D8CE9C6A7F /* libPods-加密.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F9A3D9707776F0C3491EA /* libPods-加密.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		2E65F5621EB0742F00B5264E /* 加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E65F5661EB0742F00B5264E /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		2E65F5681EB0742F00B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9CEEDD2011D50200380D2C /* MD5Encrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD5Encrypt.h; sourceTree = "<group>"; };
+		3E9CEEDE2011D50200380D2C /* MD5Encrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5Encrypt.m; sourceTree = "<group>"; };
 		63E25DF92A76AFD81478A74F /* Pods-加密.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-加密.debug.xcconfig"; path = "Pods/Target Support Files/Pods-加密/Pods-加密.debug.xcconfig"; sourceTree = "<group>"; };
 		7E15AC207E08C56289810EDF /* Pods-加密.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-加密.release.xcconfig"; path = "Pods/Target Support Files/Pods-加密/Pods-加密.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +132,8 @@
 				2E65F5451EB0742E00B5264E /* AppDelegate.m */,
 				2E65F5471EB0742E00B5264E /* ViewController.h */,
 				2E65F5481EB0742E00B5264E /* ViewController.m */,
+				3E9CEEDD2011D50200380D2C /* MD5Encrypt.h */,
+				3E9CEEDE2011D50200380D2C /* MD5Encrypt.m */,
 				2E65F54A1EB0742E00B5264E /* Main.storyboard */,
 				2E65F54D1EB0742F00B5264E /* Assets.xcassets */,
 				2E65F54F1EB0742F00B5264E /* LaunchScreen.storyboard */,
@@ -350,6 +355,7 @@
 			files = (
 				2E65F5491EB0742E00B5264E /* ViewController.m in Sources */,
 				2E65F5461EB0742E00B5264E /* AppDelegate.m in Sources */,
+				3E9CEEDF2011D50200380D2C /* MD5Encrypt.m in Sources */,
 				2E65F5431EB0742E00B5264E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
